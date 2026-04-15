@@ -1,0 +1,73 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #f7f7f7, #e9ecef);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+/* Main container */
+.container {
+    max-width: 760px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 24px;
+    letter-spacing: 0.5px;
+}
+
+/* Image wrapper */
+.snow-leopard {
+    margin-bottom: 28px;
+}
+
+/* Image */
+.snow-leopard img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 18px;
+    border: 2px solid #d1d1d1;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover + focus */
+.snow-leopard img:hover,
+.snow-leopard img:focus {
+    transform: scale(1.02);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.22);
+    border-color: #666;
+    outline: none;
+}
+
+/* Paragraph */
+p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+    max-width: 620px;
+    margin: 0 auto;
+}
