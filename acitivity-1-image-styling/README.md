@@ -1,10 +1,10 @@
 # Snow Leopard Image Page
 
-## Preview
-![Preview](screenshot.png)
-
 ## Description
 A simple webpage built with HTML and CSS that displays an image of a snow leopard with styled text and layout. The project focuses on basic styling, layout organization, and visual improvements using external CSS.
+
+## Preview
+![Preview](screenshot.png)
 
 ## Features
 - Title displayed above the image

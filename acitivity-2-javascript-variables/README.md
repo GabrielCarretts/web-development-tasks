@@ -6,6 +6,11 @@ This project was created as part of a learning assignment focused on understandi
 
 ---
 
+## Preview
+![Preview](screenshot.png)
+
+---
+
 ## Features
 
 * Collects user input through a form:
@@ -73,11 +78,6 @@ activity-2/
 
    * Results displayed on the page
    * Output in the browser console (F12)
-
----
-
-## Preview
-![Preview](screenshot.png)
 
 ---
 
