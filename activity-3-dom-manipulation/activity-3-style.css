@@ -1,0 +1,97 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #000000;
+    color: #00ff88;
+    min-height: 100vh;
+    padding: 32px 16px;
+}
+
+/* Container (terminal window) */
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: #020202;
+    padding: 28px;
+    border-radius: 10px;
+    border: 1px solid #00ff88;
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
+}
+
+/* Title (user name) */
+#vip-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 0 0 6px #00ff88;
+}
+
+/* Subtitle */
+h2 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #00cc66;
+}
+
+/* Paragraph */
+p {
+    margin-bottom: 20px;
+    color: #00ff88;
+}
+
+/* List */
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    padding-left: 10px;
+    position: relative;
+}
+
+/* Terminal bullet */
+li::before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    color: #00ff88;
+}
+
+/* Button */
+#edit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Button hover */
+#edit-btn:hover {
+    background-color: #00ff88;
+    color: #000000;
+}
+
+/* Cursor blink effect (optional) */
+#vip-name::after {
+    content: "_";
+    margin-left: 5px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
