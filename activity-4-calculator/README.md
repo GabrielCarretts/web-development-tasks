@@ -6,6 +6,12 @@ This project allows the user to choose an arithmetic operation, enter two number
 
 ---
 
+## Preview
+
+![Calculator Preview](screenshot.png)
+
+---
+
 ## Features
 
 * Two number inputs
@@ -64,18 +70,6 @@ This project allows the user to choose an arithmetic operation, enter two number
 3. Enter two numbers
 4. Choose an operation
 5. Click **Submit**
-
----
-
-## Screenshot
-
-Add your screenshot here after finishing the assignment:
-
-```md
-![Calculator Preview](screenshots/calculator-preview.png)
-```
-
----
 
 ## Purpose
 
