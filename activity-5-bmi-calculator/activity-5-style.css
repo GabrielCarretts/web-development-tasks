@@ -1,0 +1,79 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #1f2937, #111827);
+    color: #f9fafb;
+    min-height: 100vh;
+    padding: 32px 16px;
+}
+
+/* Card */
+.container {
+    max-width: 560px;
+    margin: 0 auto;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 20px;
+    padding: 28px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    color: #f8fafc;
+}
+
+/* Subtitle */
+.subtitle {
+    color: #cbd5e1;
+    margin-bottom: 22px;
+    font-size: 1rem;
+}
+
+/* Output */
+#calc-output {
+    min-height: 100px;
+    padding: 20px;
+    border-radius: 14px;
+    background: #020617;
+    border: 1px solid #334155;
+    color: #22c55e;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 12px rgba(34, 197, 94, 0.08);
+}
+
+#calc-output:empty::before {
+    content: "The result will appear here.";
+    color: #64748b;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 22px 18px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    #calc-output {
+        font-size: 0.95rem;
+    }
+}
